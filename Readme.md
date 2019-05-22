@@ -6,3 +6,5 @@ que se puede agregar y consultar los valores por las claves, pero se añade la p
 mediante métodos que permiten avanzar, retroceder, obtener el actual, mover al primer elemento, etc.
 
 No añade ninguna utilidad funcional más allá de la comprensión y prueba de los tipos genéricos.
+
+Edit: Se añade un Indexer a la clase para la prueba del mismo.

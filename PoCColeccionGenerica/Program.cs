@@ -30,6 +30,7 @@ namespace PoCColeccionGenerica
                     }
                 }
                 Console.WriteLine($"Obteniendo elemento por clave 2: {dicc.ObtenerValorPorClave(2)}");
+                Console.WriteLine($"Obteniendo elemento mediante Indexer 3: {dicc[3]}");
                 Console.WriteLine($"Obteniendo elemento por clave no existente: {dicc.ObtenerValorPorClave(6)}");
                 Console.WriteLine("Terminado ");
             }

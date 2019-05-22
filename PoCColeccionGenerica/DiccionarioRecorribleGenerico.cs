@@ -64,5 +64,14 @@ namespace PoCColeccionGenerica
         {
             return _diccionario[clave];
         }
+
+        //Indexer
+        public TValue this[TKey clave]
+        {
+            get
+            {
+                return _diccionario [clave];
+            }
+        }
     }
 }
