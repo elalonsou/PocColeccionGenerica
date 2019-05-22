@@ -17,7 +17,7 @@ namespace PoCColeccionGenerica
         private int _contPos = 0;
 
 
-        public void añadir(TKey clave, TValue valor)
+        public void Añadir(TKey clave, TValue valor)
         {
             _diccionario.Add(clave, valor);
             _listaClaves.Add(clave);

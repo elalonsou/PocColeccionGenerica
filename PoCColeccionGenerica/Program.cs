@@ -7,9 +7,9 @@ namespace PoCColeccionGenerica
         static void Main(string[] args)
         {
             DiccionarioRecorribleGenerico<int, string> dicc = new DiccionarioRecorribleGenerico<int, string>();
-            dicc.añadir(1, "Hola 1");
-            dicc.añadir(2, "Hola 2");
-            dicc.añadir(3, "Hola 3");
+            dicc.Añadir(1, "Hola 1");
+            dicc.Añadir(2, "Hola 2");
+            dicc.Añadir(3, "Hola 3");
 
             bool fin = false;
 
