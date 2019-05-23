@@ -73,5 +73,17 @@ namespace PoCColeccionGenerica
                 return _diccionario [clave];
             }
         }
+
+        //------ Prueba uso de Yield ------
+        // 
+        public IEnumerable<TValue> Valores
+        {
+            get {
+                foreach (TValue valor in _diccionario.Values)
+                {
+                    yield return valor;
+                }
+            }    
+        }
     }
 }

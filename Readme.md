@@ -8,3 +8,5 @@ mediante métodos que permiten avanzar, retroceder, obtener el actual, mover al 
 No añade ninguna utilidad funcional más allá de la comprensión y prueba de los tipos genéricos.
 
 Edit: Se añade un Indexer a la clase para la prueba del mismo.
+
+Edit: Se añade la propiedad Valores con el uso de yield para permitir iterar por los valores.
